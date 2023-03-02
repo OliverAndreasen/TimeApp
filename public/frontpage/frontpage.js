@@ -1,13 +1,6 @@
 // array of weekdays
 const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-// function to update the selected day label
-function updateLabel() {
-    const selectedDay = document.getElementById("weekday").value;
-    document.getElementById("selected-day-label").textContent = `Selected day is ${selectedDay}`;
-    document.getElementById("selected-day-label").style.display = "block";
-}
-
 // function to check if selected day matches current day
 function isCurrentDay() {
     const selectedDay = document.getElementById("weekday").value;
