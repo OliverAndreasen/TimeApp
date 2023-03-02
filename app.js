@@ -7,7 +7,7 @@ const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", 
 
 // the express.static() method is used to serve static files such as images, CSS files, and JavaScript files.
 // because of security reasons, you can only access files that are in the public folder
-app.use(express.static("public"))
+app.use('/public', express.static(__dirname + '/public' ));
 
 
 app.get('/', (req, res) => {
