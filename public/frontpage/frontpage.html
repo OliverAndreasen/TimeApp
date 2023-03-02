@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="frontpage.css" type="text/css" >
+    <title>Document</title>
+</head>
+<body>
+<h1>Select a Weekday</h1>
+<label for="weekday">Choose a weekday:</label>
+<select id="weekday">
+    <option value="Monday">Monday</option>
+    <option value="Tuesday">Tuesday</option>
+    <option value="Wednesday">Wednesday</option>
+    <option value="Thursday">Thursday</option>
+    <option value="Friday">Friday</option>
+    <option value="Saturday">Saturday</option>
+    <option value="Sunday">Sunday</option>
+</select>
+<button onclick="checkCurrentDay()">Submit</button>
+<p id="selected-day-label" style="display:none;"></p>
+
+<script src="../frontpage/frontpage.js"></script>
+
+</body>
+</html>
